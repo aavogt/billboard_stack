@@ -1,0 +1,14 @@
+name: billboard-stack
+
+dependencies:
+  - base
+  - Glob
+  - h-raylib >= 5.5.0.0
+  - linear
+
+executable:
+  main: billboard_stack.hs
+
+
+data-files:
+  - img/*
